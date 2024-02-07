@@ -8,7 +8,7 @@ print(list(map(multiply_by2, my_list))) # notice that we just write the function
 print(my_list)
 
 '''
-notice that map is not modifying anything, and creating a new list. 
+since that map is not modifying anything, and creating a new list. 
 it is also using separate data and function to work upon them.
 it's a nice concept of Functional programming and pure function.
 '''
