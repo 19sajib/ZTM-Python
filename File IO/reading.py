@@ -23,4 +23,4 @@ my_file.seek(0)
 print(my_file.readlines()) # this store all the lines in a list
 print(my_file.readlines())
 
-my_file.close()
+my_file.close() # this for colse the file
