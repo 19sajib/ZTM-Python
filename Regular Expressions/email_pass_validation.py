@@ -1,3 +1,4 @@
+# use these for study https://regex101.com/  https://regexone.com/
 import re
 
 email_pattern = re.compile(r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")

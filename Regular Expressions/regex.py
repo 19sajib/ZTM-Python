@@ -1,3 +1,4 @@
+# use these for study https://regex101.com/  https://regexone.com/
 import re
 
 string = "this is a really cool string really!"
