@@ -17,5 +17,8 @@ if not os.path.exists(output_folder):
 for filename in os.listdir(image_folder):
     img = Image.open(f'{image_folder}{filename}')
     clean_name = os.path.splitext(filename)[0]
+    #added the / in case user doesn't enter it. You may want to check for this and add or remover it. 
     img.save(f'{output_folder}{clean_name}.png', 'png')
     print(f'{clean_name} done')
+    
+# Run command ==>> python .\JPGtoPNGconverter.py Pokedex\ new\
